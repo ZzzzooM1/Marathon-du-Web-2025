@@ -18,7 +18,7 @@ Notre application web a été développée en une semaine lors du Marathon du We
 
 **Commanditaire :** _Chaouni Nawel_
 
-**Problématique :** _Généralisation des données dans le carde de détecion de fake news_
+**Problématique :** _Généralisation des données dans le carde de détection de fake news_
 
 ---
 
