@@ -16,9 +16,9 @@ Notre application web a été développée en une semaine lors du Marathon du We
 
 <!-- ✏️ À compléter : décrivez ici le sujet du projet, le commanditaire et l'objectif principal -->
 
-**Commanditaire :** _À compléter_
+**Commanditaire :** _Chaouni Nawel_
 
-**Problématique :** _À compléter_
+**Problématique :** _Généralisation des données dans le carde de détecion de fake news_
 
 ---
 
@@ -26,42 +26,10 @@ Notre application web a été développée en une semaine lors du Marathon du We
 
 <!-- ✏️ À compléter selon vos livrables -->
 
-- 📊 Analyse de données et visualisations interactives
+- 📊 Analyse de données et visualisations 
 - 🌐 Application web interactive
 - 🎨 Supports de communication (affiche, vidéo, réseaux sociaux)
-- -Expliquer modèle Deep 
-
----
-
-## 🛠️ Stack technique
-
-| Couche | Technologies |
-|--------|-------------|
-| **Frontend** | React / Next.js |
-| **Backend** | Python |
-| **Données** | _À compléter (ex : Pandas, NumPy…)_ |
-| **Visualisation** | _À compléter (ex : Plotly, D3.js, Recharts…)_ |
-| **Deep Learning** |
-| **Déploiement** | _À compléter_ |
-
-```
-
-<!-- ✏️ Adaptez les commandes à votre structure de projet réelle -->
-
----
-
-## 📁 Structure du projet ( à modifier)
-
-```
-digidem/
-├── frontend/          # Application React / Next.js
-├── backend/           # API Python
-├── data/              # Jeux de données
-├── docs/              # Documentation & supports de communication
-└── README.md
-```
-
-<!-- ✏️ À adapter selon votre arborescence réelle -->
+- -Utilisation de modèle de Deep Learning : Vision transformer
 
 ---
 
@@ -73,8 +41,8 @@ digidem/
 |-----|------|
 | Yanis Bencharif | Chef de Projet |
 | Youssef El alaoui | Web/Visualisation |
-| Elhadji Sow | MIASHS / Data |
-| Enzo Martinelli | CNO | MIASHS / IA |
+| Elhadji Sow | Data |
+| Enzo Martinelli | MIASHS / IA |
 
 ---
 
