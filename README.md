@@ -7,7 +7,7 @@
 
 ## 📋 Présentation
 
-DIGIDEM est une application web développée en une semaine lors du Marathon du Web 2026, un hackathon réunissant les étudiants de M1 MIASHS et M1 Info-Com (parcours CNO) de l'Université Paul-Valéry Montpellier 3.
+VERIDEM est une application web développée en une semaine lors du Marathon du Web 2026, un hackathon réunissant les étudiants de M1 MIASHS et M1 Info-Com (parcours CNO) de l'Université Paul-Valéry Montpellier 3.
 À l'heure où les images générées par intelligence artificielle circulent massivement en ligne et alimentent la désinformation, DIGIDEM s'attaque à la détection et l'analyse des fake news visuelles. Le projet se décline en deux volets.
 
 Le premier volet s'articule comme l'analyse des tendances de la désinformation visuelle
