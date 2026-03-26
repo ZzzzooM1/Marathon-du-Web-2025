@@ -1,0 +1,12 @@
+# VERIDEM Pipeline — Python 3.10+
+# transformers==4.44.0 est OBLIGATOIRE pour Florence-2
+flask==3.1.0
+flask-cors==5.0.0
+torch>=2.0.0
+transformers==4.44.0
+accelerate>=0.27.0
+timm>=0.9.0
+einops>=0.7.0
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0

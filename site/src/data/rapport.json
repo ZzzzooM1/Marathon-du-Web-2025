@@ -1,0 +1,3764 @@
+{
+  "total_fichiers": 427,
+  "total_classes": 225,
+  "non_classes": 202,
+  "plateformes": {
+    "Inconnu": 193,
+    "X/Twitter": 125,
+    "TikTok": 60,
+    "Instagram": 35,
+    "Facebook": 27,
+    "YouTube": 20,
+    "Reddit": 5,
+    "Pediavenir": 5,
+    "Telegram": 3,
+    "Presse": 3,
+    "Snapchat": 2,
+    "TV (TF1)": 2,
+    "WhatsApp": 1,
+    "TV (France24)": 1,
+    "TV (CNews)": 1,
+    "TV (Canal+)": 1,
+    "TV (France3)": 1
+  },
+  "thematiques": {
+    "Politique": 81,
+    "Catastrophes / Faits divers": 35,
+    "COVID / Santé": 31,
+    "Technologie": 23,
+    "Célébrités": 22,
+    "IA / Deepfake": 18,
+    "Religion / Histoire": 7,
+    "Divertissement": 4,
+    "Conspirations": 4
+  },
+  "patterns_rhetoriques": {
+    "Alerte / Urgence": 24,
+    "Appel au partage": 21,
+    "Mort / Décès": 18,
+    "Référence IA/Image": 4,
+    "Complot révélé": 4,
+    "Scandale / Choc": 2
+  },
+  "top_mots_ocr": {
+    "news": 49,
+    "info": 41,
+    "paris": 40,
+    "macron": 39,
+    "trump": 39,
+    "ajouter": 37,
+    "commentaire": 34,
+    "mars": 34,
+    "rechercher": 33,
+    "vues": 33,
+    "pediavenir": 30,
+    "monde": 29,
+    "contenu": 28,
+    "tour": 28,
+    "répondre": 26,
+    "covid": 25,
+    "réponses": 25,
+    "followers": 24,
+    "trouver": 22,
+    "votre": 20,
+    "recherche": 20,
+    "netanyahu": 20,
+    "eiffel": 20,
+    "iran": 20,
+    "fake": 19,
+    "ville": 19,
+    "emmanuel": 19,
+    "posts": 19,
+    "traduire": 18,
+    "vidéos": 18,
+    "mort": 18,
+    "island": 18,
+    "comme": 17,
+    "était": 17,
+    "message": 17,
+    "seine": 17,
+    "saint": 17,
+    "sont": 16,
+    "commenter": 16,
+    "live": 16,
+    "brigitte": 16,
+    "suivis": 16,
+    "contre": 15,
+    "faux": 15,
+    "partager": 15,
+    "flash": 15,
+    "actu": 15,
+    "réponse": 15,
+    "israel": 15,
+    "direct": 15
+  },
+  "top_mots_descriptions": {
+    "reads": 400,
+    "tweet": 350,
+    "translates": 227,
+    "english": 175,
+    "video": 160,
+    "face": 155,
+    "below": 148,
+    "suit": 145,
+    "picture": 142,
+    "front": 123,
+    "profile": 122,
+    "other": 122,
+    "corner": 115,
+    "bottom": 114,
+    "standing": 109,
+    "twitter": 99,
+    "phone": 97,
+    "written": 96,
+    "user": 95,
+    "serious": 88,
+    "expression": 87,
+    "account": 86,
+    "message": 85,
+    "center": 84,
+    "news": 82,
+    "logo": 80,
+    "camera": 77,
+    "microphone": 76,
+    "media": 76,
+    "social": 74,
+    "tower": 73,
+    "article": 67,
+    "accompanied": 67,
+    "blurred": 66,
+    "group": 65,
+    "shirt": 65,
+    "taken": 64,
+    "hair": 61,
+    "yellow": 60,
+    "into": 60,
+    "fire": 59,
+    "icon": 59,
+    "paris": 59,
+    "macron": 59,
+    "sitting": 58,
+    "three": 57,
+    "street": 55,
+    "titled": 54,
+    "speaking": 54,
+    "trump": 54
+  },
+  "documents": [
+    {
+      "fichier": "ADDI Yasmine 1 Snap_Insta_Telegram_ FBK.txt",
+      "plateformes": [
+        "Snapchat",
+        "Instagram",
+        "Telegram",
+        "Facebook"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "ADDI Yasmine 2 X_Telegram_ FBK_ Redd.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Telegram",
+        "Facebook",
+        "Reddit"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "AUTIERE _ Segrada_ Tiktok 2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "AirMalaysia_Sacha3_Tiktok_2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Apollo 11_Mateo1_Youtube_2000.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Belligon_Kamala_ Tiktok_ X_ 2023.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Bento 2 _ SHEIN OUIGOURS_ Tiktok 2022.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Divertissement",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Bento_ Contrôle technique_ TF1 2025.txt",
+      "plateformes": [
+        "TV (TF1)"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Bibber&Smith_Emma3_Tiktok_2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Bobsinclar_Jamon2_Tiktok_Insta_X_2025.txt",
+      "plateformes": [
+        "TikTok",
+        "Instagram",
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Brigitte_Edgar_Tiktok_Instagram_X 2025.txt",
+      "plateformes": [
+        "TikTok",
+        "Instagram",
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Brigitte_Girond_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Brigitte_Laborie_ReyNatacha_X_2021.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Camille 2_Hollywood_ X_2025.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Camille_COVID_VIHORG_2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Cathedrale ND_Renault_X_2019.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Confinement_Lina_FBK, WhatsApp_X_2021.txt",
+      "plateformes": [
+        "Facebook",
+        "WhatsApp",
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Covid 19_Matheo_X_2020.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Covid 5G_Audebert2_France24_2021.txt",
+      "plateformes": [
+        "TV (France24)"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Covid 5G_DeSousa_FBK_X_Tiktok.txt",
+      "plateformes": [
+        "Facebook",
+        "X/Twitter",
+        "TikTok"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Covid 5G_Emma_X.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Covid 5G_Narce_FBK_2020.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Mort / Décès",
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "Covid 5G_Thomas_FBK_Youtube_Tiktok_X.txt",
+      "plateformes": [
+        "Facebook",
+        "YouTube",
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Covid_Brindel 3_ FBK_2020.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "Covid_Exbrayat_Tiktok_Insta_journaux télévisés_2024.txt",
+      "plateformes": [
+        "TikTok",
+        "Instagram"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Disney_Gateau_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Disparition police_FBK_Jamon.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence",
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "Divorce célébrités_ Turkey.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Drones dans le ciel_Chloé_X.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "Drones_Mateo_Reddit_X_Insta_2017.txt",
+      "plateformes": [
+        "Reddit",
+        "X/Twitter",
+        "Instagram"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Dujardin_Brindel_Twitter_2021.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Décès AmelBent_Emma4_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Euro_Girond_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Fin du monde_casals_FBK_2012.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Conspirations",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Fin ramadan_Matheo1_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Ghostofkiev_Lamouche_X_2022.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "GoogleMaps_Troncy2_Tiktok_2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hitler_Hamard_Lepoint 2014.txt",
+      "plateformes": [
+        "Presse"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "Hitler_Yael_X_2022.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hollywood_Duteil_Tiktok_ IA_2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hollywood_Gondard_Tiktok_2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hollywood_Julie_Tiktok_2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hollywood_Lina_Tiktok_ IA_2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hollywood_Mathieu_Tiktok_2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Hollywood_Troncy_Tiktok_2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Illuminati_Troncy3_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Conspirations",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Inoxtag_Lagarde_Tiktok_X.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "Iphone_Girond2_Tiktok_2023.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO CIA_Florent_X_2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO Seine _ Emma2_PEDIAVENIR_ 2024.txt",
+      "plateformes": [
+        "Pediavenir"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO Seine _ Renault2_PEDIAVENIR_ 2024.txt",
+      "plateformes": [
+        "Pediavenir"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO Seine _ Ryan_PEDIAVENIR_ 2024.txt",
+      "plateformes": [
+        "Pediavenir"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO Seine_Agnès2_X_2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO Seine_Besse_Pediavenir_2024.txt",
+      "plateformes": [
+        "Pediavenir"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO Seine_Gourbeix_X_2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO confinement_Casals_Tiktok_2023.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "JO confinement_Lagarde2_Instagram.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Référence IA/Image"
+      ]
+    },
+    {
+      "fichier": "JO_Hamard2_X.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Kamallah_Cambon_X_2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Lajoconde_Lamouche2_X_2025.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Lalune_Jamon3_Youtube_FBK.txt",
+      "plateformes": [
+        "YouTube",
+        "Facebook"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Le Pape_Lina_X_Reddit_2023.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Reddit"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Le Pape_Noémie_X_2023.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Le pape_Areg_Tiktok_IA_2023.png.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Le pape_Troncy_Tiktok_2023.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Leloup 2 _ Covid géolocalisation_ Insta_2021.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Leloup_CovidadresseIP_X_2023.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "Lepen_Brindel 2_ X_2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "MC DONALDS_ Adam_Figaro_2021.txt",
+      "plateformes": [
+        "Presse"
+      ],
+      "theme": "Divertissement",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Macron Cocaîne Italy _ Tiktok_2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "Macron_Casals_X_2021.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Macron_Florent2_Cnews_2023.txt",
+      "plateformes": [
+        "TV (CNews)"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Macron_Granvaud_X_2025.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "Macron_Laborie 2_Canal+_FBK_2019.txt",
+      "plateformes": [
+        "TV (Canal+)",
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Macron_Lacour_X.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Macron_Nolan1_Tiktok_2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Macron_Touche_Youtube.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Magnet_ Trump_ Association Nationale des journalistes _Juillet 2024.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Magnet_insta 2017.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Menard _ Le Pape _ IA _ Tilktok_X_Reddit_2023.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter",
+        "Reddit"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Menard_ Brigitte_Youtube_2021.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Moranges_ Simpson Queen II_ Tiktok 2022.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Divertissement",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Musk_Augoyard_Pediavenir.txt",
+      "plateformes": [
+        "Pediavenir"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Météo_Casals2_X_2022.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Netanyahu_Agnès_X_2023.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "PUBTF1_Ryan4_TF1.txt",
+      "plateformes": [
+        "TV (TF1)"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Pape_Décès Italy_Corona_Titktok Mars 2025.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Photo 2_Insta_presse TV_tiktok (Turkey).txt",
+      "plateformes": [
+        "Instagram",
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Photo 4 _ Insta_TV_Tiktok (Turkey).txt",
+      "plateformes": [
+        "Instagram",
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "PierreChabrier_Sacha_Youtube_2024.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Pokemon le film_sacha4_Instagram_2026.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Divertissement",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Pompier fire_Méline_X.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Radars véhicules lents_ Max_X_2025.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Reconfinement-télétravail _ Julie_Tiktok 2025.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Reconfinement_Augoyard2_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "Rihanna_Ryan2_ X_2012.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "Rothschild_Hamard1_Tiktok_Instagram_X_Médias russes.txt",
+      "plateformes": [
+        "TikTok",
+        "Instagram",
+        "X/Twitter"
+      ],
+      "theme": "Conspirations",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Segrada_Edgar_Tiktok_2024.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Suicide de Stallone_Reddit_Tiktok_X (Turkey).txt",
+      "plateformes": [
+        "Reddit",
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "Terre Multidimensionnelle_Emma_Youtube_2024.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "Thea_TourEffeil_IA_france3_2024.txt",
+      "plateformes": [
+        "TV (France3)"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Théa 2_ Macron telephone portable _ X _ 2024.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "TiktokFrance_Lacour2_Tiktok.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "TourEiffel_Casals_Youtube_Tiktok_2024.txt",
+      "plateformes": [
+        "YouTube",
+        "TikTok"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "TourEiffel_Sacha1_FBK_2024.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "Trump_Audebert_Leparisien_2024.txt",
+      "plateformes": [
+        "Presse"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0001__FACKATHON-Tableau_des_Fake_New.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0002__FACKATHON-Tableau_des_Fake_New.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0003__FACKATHON-Tableau_des_Fake_New.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0004__FACKATHON-Tableau_des_Fake_New.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0005__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0006__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0007__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": [
+        "Référence IA/Image"
+      ]
+    },
+    {
+      "fichier": "img_0008__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0009__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0010__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0011__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0012__Tableau_qualitatif_Bournier-Fe.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0013__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0014__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0015__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0016__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0017__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0018__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0019__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0020__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0021__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0022__FACKATHON_-_GLON_-_BRUNAT_-_LA.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0023__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram",
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0024__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "Snapchat"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0025__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0026__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0027__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0028__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0029__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": [
+        "Scandale / Choc"
+      ]
+    },
+    {
+      "fichier": "img_0030__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0031__FACKATHON_-_Alyssa,_Laëtitia.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0032__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0033__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0034__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0035__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0036__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0037__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0038__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0039__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0040__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0041__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0042__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0043__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0044__Jeanne_Sigaud_Justine_Chabrol.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0045__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0046__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0047__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0048__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0049__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0050__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0051__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0052__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0053__FACKATHON_Pouzadoux_Conort.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0054__Tableau_des_Fake_News_-_COULLO.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0055__Tableau_des_Fake_News_-_COULLO.txt",
+      "plateformes": [
+        "Instagram",
+        "YouTube"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0056__Tableau_des_Fake_News_-_COULLO.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0057__Tableau_des_Fake_News_-_COULLO.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0058__Tableau_des_Fake_News_-_COULLO.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0059__Tableau_des_Fake_News_-_COULLO.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0060__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0061__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0062__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0063__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0064__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0065__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0066__FAKHATON_Baptiste_Crumière_Naw.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0067__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Religion / Histoire",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0068__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0069__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0070__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0071__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0072__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0073__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0074__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0075__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0076__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0077__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Facebook",
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0078__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter",
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0079__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0080__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0081__FACKATHON_-_Adrien_GLON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0082__FACKATHON_-_Adrien_GLON.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0083__FACKATHON_-_Adrien_GLON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0084__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0085__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0086__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0087__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0088__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0089__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0090__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0091__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0092__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0093__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0094__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0095__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0096__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0097__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0098__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0099__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0100__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0101__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0102__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0103__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0104__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0105__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0106__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0107__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Scandale / Choc"
+      ]
+    },
+    {
+      "fichier": "img_0108__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0109__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0110__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0111__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0112__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0113__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0114__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0115__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0116__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence",
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0117__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0118__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0119__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence",
+        "Mort / Décès",
+        "Complot révélé"
+      ]
+    },
+    {
+      "fichier": "img_0120__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0121__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0122__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0123__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0124__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0125__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0126__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0127__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0128__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0129__Qualitatif_-_FAKE_NEWS.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0130__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0131__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0132__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0133__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0134__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0135__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0136__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0137__FACKATHON_Brunat_Lauvergnat.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0138__Adrien_Lelievre_GEMA_3A_-_Tabl.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0139__Adrien_Lelievre_GEMA_3A_-_Tabl.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0140__Adrien_Lelievre_GEMA_3A_-_Tabl.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0141__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0142__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0143__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0144__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0145__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0146__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0147__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0148__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0149__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0150__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0151__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0152__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0153__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0154__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0155__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0156__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0157__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0158__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0159__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0160__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0161__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0162__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0163__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0164__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "TikTok",
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0165__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0166__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0167__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0168__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": [
+        "Référence IA/Image"
+      ]
+    },
+    {
+      "fichier": "img_0169__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0170__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0171__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0172__Llas-Ribes.Arthaud.Lenoir-Truf.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0173__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0174__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0175__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0176__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0177__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0178__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0179__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0180__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0181__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0182__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0183__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0184__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0185__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0186__FACKATON_-_SAPEY-MANNEAU.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0187__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0188__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0189__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0190__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0191__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0192__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0193__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0194__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Instagram",
+        "Telegram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0195__MARCHAND_CHAUX_PAGES_FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0196__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0197__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0198__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": [
+        "Référence IA/Image"
+      ]
+    },
+    {
+      "fichier": "img_0199__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0200__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0201__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0202__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0203__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram",
+        "Facebook",
+        "YouTube"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0204__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram",
+        "Facebook",
+        "YouTube"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0205__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0206__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0207__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0208__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0209__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0210__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0211__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0212__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0213__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0214__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0215__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0216__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0217__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0218__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0219__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0220__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Complot révélé"
+      ]
+    },
+    {
+      "fichier": "img_0221__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0222__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0223__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0224__FAKEATHON_Anthony_et_Roxane_TD.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0225__FAKEATHON_Anthony_et_Roxane_TD.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0226__VERNHES.TEMPERE.TP3B-FACKATHON.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0227__VILLATTE.ROBIN.LONJON.GC2F1b_(.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0228__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0229__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0230__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0231__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0232__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0233__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0234__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Célébrités",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0235__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0236__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0237__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0238__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0239__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0240__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0241__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0242__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0243__FACKATHON_Beaudeau_Vaurs.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0244__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0245__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0246__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0247__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0248__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0249__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0250__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0251__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0252__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "X/Twitter",
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0253__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0254__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0255__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0256__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0257__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0258__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0259__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0260__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0261__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0262__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0263__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0264__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0265__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0266__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0267__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0268__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Mort / Décès"
+      ]
+    },
+    {
+      "fichier": "img_0269__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0270__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0271__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0272__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0273__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0274__FACKATHON_-_Léonie_Alban_Safaa.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0275__FACKATHON_-_Reyhan.PARRET-Maxi.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0276__FACKATHON_-_Reyhan.PARRET-Maxi.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0277__FACKATHON_-_Reyhan.PARRET-Maxi.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0278__FACKATHON_-_Reyhan.PARRET-Maxi.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Complot révélé"
+      ]
+    },
+    {
+      "fichier": "img_0279__FACKATHON_-_Reyhan.PARRET-Maxi.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0280__Base_de_données_FAKHATON_2025-.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0281__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0282__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Catastrophes / Faits divers",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0283__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0284__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "IA / Deepfake",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0285__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0286__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0287__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0288__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "TikTok"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0289__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0290__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": [
+        "Alerte / Urgence"
+      ]
+    },
+    {
+      "fichier": "img_0291__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Instagram"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0292__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0293__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0294__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0295__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0296__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0297__FACKATHON_-_TISSERAND_-_VICHY.txt",
+      "plateformes": [
+        "X/Twitter",
+        "Instagram",
+        "Facebook",
+        "YouTube"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0298__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0299__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0300__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0301__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0302__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Conspirations",
+      "patterns_rhetoriques": [
+        "Complot révélé"
+      ]
+    },
+    {
+      "fichier": "img_0303__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0304__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0305__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0306__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0307__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0308__FACKATHON_-_1AB1_Tableau_des_F.txt",
+      "plateformes": [
+        "X/Twitter"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0309__BREAT_Noeline_GABAGLIO_Juliett.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Technologie",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0310__BREAT_Noeline_GABAGLIO_Juliett.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0311__Synthèse_1AB1_Izuan,Manon,Juli.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0312__Synthèse_1AB1_Izuan,Manon,Juli.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0313__Synthèse_1AB1_Izuan,Manon,Juli.txt",
+      "plateformes": [
+        "Facebook"
+      ],
+      "theme": "Politique",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0314__Synthèse_1AB1_Izuan,Manon,Juli.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0315__Synthèse_1AB1_Izuan,Manon,Juli.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0316__Torremocha_Khimoun_Bonnel_comm.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0317__Torremocha_Khimoun_Bonnel_comm.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0318__Torremocha_Khimoun_Bonnel_comm.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "Autre",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0319__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": [
+        "Appel au partage"
+      ]
+    },
+    {
+      "fichier": "img_0320__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    },
+    {
+      "fichier": "img_0321__FACKATHON_-_Tableau_des_Fake_N.txt",
+      "plateformes": [
+        "Inconnu"
+      ],
+      "theme": "COVID / Santé",
+      "patterns_rhetoriques": []
+    }
+  ]
+}
