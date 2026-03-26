@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Pipeline d'analyse textuelle robuste pour une journee de demonstration.
+Pipeline d'analyse textuelle.
 
 Le script parcourt un dossier de fichiers .txt issus d'un outil d'upload
 d'images, separe les textes OCR et les descriptions generees, applique des
-heuristiques de classification, puis exporte des rapports reutilisables pour
-une soutenance.
+heuristiques de classification.
 """
 
 from __future__ import annotations
