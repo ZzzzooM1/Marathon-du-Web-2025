@@ -1,0 +1,292 @@
+# ============================================================
+# 🚀 PIPELINE COMPLET : Extraction + OCR + Description + Détection IA
+# ============================================================
+# Combine :
+#   - Florence-2 (OCR, description, détection de photos)
+#   - OpenCV (détection de contours)
+#   - ViT AI-image-detector (prédiction réel vs IA)
+# ============================================================
+
+!pip install -q opencv-python-headless
+
+import os
+import cv2
+import json
+import torch
+import numpy as np
+from PIL import Image
+from datetime import datetime
+from transformers import pipeline
+
+# ============================================================
+# 📂 CONFIGURATION
+# ============================================================
+INPUT_FOLDER  = "/content/TEST"  # ← CHANGE ICI
+OUTPUT_BASE   = "./output_complet"
+
+MIN_PHOTO_RATIO = 0.02
+MAX_PHOTO_RATIO = 0.85
+MIN_PHOTO_SIZE  = 80
+GROUNDING_QUERIES = ["a photograph", "a photo image", "a picture in the document"]
+# ============================================================
+
+# Créer les dossiers
+images_dir = os.path.join(OUTPUT_BASE, "images_extraites")
+textes_dir = os.path.join(OUTPUT_BASE, "textes")
+os.makedirs(images_dir, exist_ok=True)
+os.makedirs(textes_dir, exist_ok=True)
+
+# ============================================================
+# 🤖 CHARGER LE DÉTECTEUR IA (ViT)
+# ============================================================
+print("⏳ Chargement du détecteur IA (umm-maybe/AI-image-detector)...")
+ai_detector = pipeline(
+    "image-classification",
+    model="umm-maybe/AI-image-detector",
+    device=0 if torch.cuda.is_available() else -1
+)
+print("✅ Détecteur IA prêt !\n")
+
+
+# ============================================================
+# 🔧 FONCTIONS UTILITAIRES
+# ============================================================
+
+def merge_close_boxes(boxes, overlap_threshold=0.3):
+    if not boxes:
+        return []
+    boxes = sorted(boxes, key=lambda b: (b[2]-b[0])*(b[3]-b[1]), reverse=True)
+    merged, used = [], set()
+    for i, box_a in enumerate(boxes):
+        if i in used:
+            continue
+        x1, y1, x2, y2 = box_a
+        for j, box_b in enumerate(boxes):
+            if j <= i or j in used:
+                continue
+            bx1, by1, bx2, by2 = box_b
+            ix1, iy1 = max(x1, bx1), max(y1, by1)
+            ix2, iy2 = min(x2, bx2), min(y2, by2)
+            if ix1 < ix2 and iy1 < iy2:
+                inter = (ix2 - ix1) * (iy2 - iy1)
+                area_b = (bx2 - bx1) * (by2 - by1)
+                if inter / (area_b + 1e-6) > overlap_threshold:
+                    x1, y1 = min(x1, bx1), min(y1, by1)
+                    x2, y2 = max(x2, bx2), max(y2, by2)
+                    used.add(j)
+        merged.append([x1, y1, x2, y2])
+        used.add(i)
+    return merged
+
+
+def detect_photos(image):
+    """Détecte les photos entières via contours OpenCV + Florence-2 grounding."""
+    img_area = image.width * image.height
+
+    # Méthode 1 : Contours OpenCV
+    img_cv = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+    gray = cv2.cvtColor(img_cv, cv2.COLOR_BGR2GRAY)
+    edges = cv2.Canny(gray, 30, 100)
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+    edges = cv2.dilate(edges, kernel, iterations=2)
+    contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    contour_boxes = []
+    for cnt in contours:
+        x, y, w, h = cv2.boundingRect(cnt)
+        area_ratio = (w * h) / img_area
+        aspect = max(w, h) / (min(w, h) + 1e-6)
+        if (w >= MIN_PHOTO_SIZE and h >= MIN_PHOTO_SIZE
+            and MIN_PHOTO_RATIO <= area_ratio <= MAX_PHOTO_RATIO
+            and aspect < 5):
+            contour_boxes.append([x, y, x + w, y + h])
+
+    # Méthode 2 : Florence-2 grounding
+    florence_boxes = []
+    for query in GROUNDING_QUERIES:
+        res = run_florence(image, "<CAPTION_TO_PHRASE_GROUNDING>", query)
+        gdata = res.get("<CAPTION_TO_PHRASE_GROUNDING>", {})
+        for bbox in gdata.get("bboxes", []):
+            x1, y1, x2, y2 = bbox
+            w, h = x2 - x1, y2 - y1
+            area_ratio = (w * h) / img_area
+            if (w >= MIN_PHOTO_SIZE and h >= MIN_PHOTO_SIZE
+                and MIN_PHOTO_RATIO <= area_ratio <= MAX_PHOTO_RATIO):
+                florence_boxes.append([x1, y1, x2, y2])
+
+    all_boxes = contour_boxes + florence_boxes
+    final_boxes = merge_close_boxes(all_boxes)
+    final_boxes.sort(key=lambda b: (b[1], b[0]))
+    return final_boxes
+
+
+def predict_ai_or_real(image):
+    """Prédit si une image est générée par IA ou réelle."""
+    preds = ai_detector(image)
+    scores = {p['label']: p['score'] for p in preds}
+
+    prob_ai = scores.get('artificial', scores.get('ai', 0))
+    prob_human = scores.get('human', scores.get('real', 0))
+
+    if not prob_ai and not prob_human:
+        top = preds[0]
+        if any(kw in top['label'].lower() for kw in ['artificial', 'ai', 'fake']):
+            prob_ai = top['score']
+            prob_human = 1 - top['score']
+        else:
+            prob_human = top['score']
+            prob_ai = 1 - top['score']
+
+    verdict = "🤖 IA" if prob_ai > prob_human else "📷 RÉEL"
+    confidence = max(prob_ai, prob_human)
+    return verdict, confidence, prob_ai, prob_human
+
+
+def process_image(filepath, image_name):
+    """
+    Pipeline complet pour une image :
+    1. Découpe les photos contenues
+    2. OCR + description (Florence-2)
+    3. Prédiction IA vs Réel (ViT) sur chaque photo extraite
+    """
+    image = Image.open(filepath).convert("RGB")
+
+    # --- 1) Détecter et découper les photos ---
+    final_boxes = detect_photos(image)
+
+    extracted = []
+    for i, bbox in enumerate(final_boxes, 1):
+        x1, y1, x2, y2 = [int(c) for c in bbox]
+        pad = 2
+        x1, y1 = max(0, x1 - pad), max(0, y1 - pad)
+        x2, y2 = min(image.width, x2 + pad), min(image.height, y2 + pad)
+
+        cropped = image.crop((x1, y1, x2, y2))
+
+        # Sauvegarder la photo extraite
+        filename = f"{image_name}_photo_{i:02d}.png"
+        cropped.save(os.path.join(images_dir, filename), quality=95)
+
+        # Prédiction IA sur la photo extraite
+        verdict, confidence, prob_ai, prob_human = predict_ai_or_real(cropped)
+
+        # Description de la photo extraite
+        photo_caption = run_florence(cropped, "<CAPTION>").get("<CAPTION>", "")
+
+        extracted.append({
+            "filename": filename,
+            "size": f"{cropped.width}x{cropped.height}",
+            "verdict": verdict,
+            "confidence": confidence,
+            "prob_ai": round(prob_ai, 4),
+            "prob_human": round(prob_human, 4),
+            "caption": photo_caption
+        })
+
+    # Si aucune photo détectée, analyser l'image entière
+    if not extracted:
+        verdict, confidence, prob_ai, prob_human = predict_ai_or_real(image)
+        filename = f"{image_name}_original.png"
+        image.save(os.path.join(images_dir, filename), quality=95)
+        photo_caption = run_florence(image, "<CAPTION>").get("<CAPTION>", "")
+        extracted.append({
+            "filename": filename,
+            "size": f"{image.width}x{image.height}",
+            "verdict": verdict,
+            "confidence": confidence,
+            "prob_ai": round(prob_ai, 4),
+            "prob_human": round(prob_human, 4),
+            "caption": photo_caption
+        })
+
+    # --- 2) OCR + description globale ---
+    ocr_text = run_florence(image, "<OCR>").get("<OCR>", "")
+    global_caption = run_florence(image, "<MORE_DETAILED_CAPTION>").get("<MORE_DETAILED_CAPTION>", "")
+
+    # --- 3) Sauvegarder le texte ---
+    txt_path = os.path.join(textes_dir, f"{image_name}.txt")
+    with open(txt_path, "w", encoding="utf-8") as f:
+        f.write(f"{'='*60}\n")
+        f.write(f"Résultats — {image_name}\n")
+        f.write(f"Date : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write(f"{'='*60}\n\n")
+
+        f.write("--- TEXTE EXTRAIT (OCR) ---\n")
+        f.write(f"{ocr_text if ocr_text else '(aucun texte détecté)'}\n\n")
+
+        f.write("--- DESCRIPTION GLOBALE ---\n")
+        f.write(f"{global_caption}\n\n")
+
+        f.write("--- PHOTOS EXTRAITES + ANALYSE IA ---\n")
+        for info in extracted:
+            f.write(f"\n  📷 {info['filename']} ({info['size']})\n")
+            f.write(f"     Description : {info['caption']}\n")
+            f.write(f"     Verdict     : {info['verdict']} ({info['confidence']:.1%})\n")
+            f.write(f"     Score IA    : {info['prob_ai']:.1%}\n")
+            f.write(f"     Score Réel  : {info['prob_human']:.1%}\n")
+
+    return {
+        "ocr": ocr_text,
+        "description": global_caption,
+        "photos": extracted
+    }
+
+
+# ============================================================
+# 🚀 LANCER LE TRAITEMENT
+# ============================================================
+
+extensions = {".jpg", ".jpeg", ".png", ".bmp", ".webp", ".tiff"}
+files = sorted([
+    f for f in os.listdir(INPUT_FOLDER)
+    if os.path.splitext(f)[1].lower() in extensions
+])
+
+print(f"📂 {len(files)} image(s) à traiter dans {INPUT_FOLDER}")
+print(f"📁 Photos → {images_dir}/")
+print(f"📁 Textes → {textes_dir}/")
+print("=" * 70)
+
+all_results = []
+
+for idx, filename in enumerate(files, 1):
+    filepath = os.path.join(INPUT_FOLDER, filename)
+    name = os.path.splitext(filename)[0]
+
+    print(f"\n{'─'*70}")
+    print(f"[{idx}/{len(files)}] 🔄 {filename}")
+    print(f"{'─'*70}")
+
+    result = process_image(filepath, name)
+    all_results.append({"filename": filename, **result})
+
+    # Affichage
+    print(f"  📝 OCR : {len(str(result['ocr']))} caractères")
+    for photo in result["photos"]:
+        print(f"  🖼️ {photo['filename']} ({photo['size']})")
+        print(f"     → {photo['verdict']} ({photo['confidence']:.1%}) — {photo['caption'][:60]}")
+
+# Résumé JSON
+json_path = os.path.join(OUTPUT_BASE, "resultats_complets.json")
+with open(json_path, "w", encoding="utf-8") as f:
+    json.dump(all_results, f, ensure_ascii=False, indent=2)
+
+
+# ============================================================
+# 📊 RÉSUMÉ FINAL
+# ============================================================
+total_photos = sum(len(r["photos"]) for r in all_results)
+total_ai = sum(1 for r in all_results for p in r["photos"] if "IA" in p["verdict"])
+total_real = total_photos - total_ai
+
+print(f"\n{'='*70}")
+print(f"🎉 TRAITEMENT TERMINÉ")
+print(f"{'='*70}")
+print(f"  📂 {len(files)} document(s) traité(s)")
+print(f"  🖼️ {total_photos} photo(s) extraite(s)")
+print(f"     🤖 {total_ai} détectée(s) IA")
+print(f"     📷 {total_real} détectée(s) réelle(s)")
+print(f"  📁 Images  → {images_dir}/")
+print(f"  📁 Textes  → {textes_dir}/")
+print(f"  📋 JSON    → {json_path}")
+print(f"{'='*70}")
