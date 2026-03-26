@@ -38,7 +38,7 @@ Une identification des zones suspectes de l'image (quelles parties sont probable
 | Yanis Bencharif | Chef de Projet |
 | Youssef El alaoui | Web/Visualisation |
 | Elhadji Sow | Data |
-| Enzo Martinelli | MIASHS / IA |
+| Enzo Martinelli |  IA |
 
 ---
 
